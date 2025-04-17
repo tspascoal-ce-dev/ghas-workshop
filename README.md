@@ -1,7 +1,5 @@
 
-<h1 align="center">LAB410: Found means fixed: Diminish security debt with GitHub Advanced Security</h1>
-
-![LAB410: Found means fixed: Diminish security debt with GitHub Advanced Security](./_labs/images/logo.png)
+<h1 align="center">Securing your code with GitHub</h1>
 
 <h5 align="center"><a href="https://github.com/joshjohanning">@joshjohanning</a> <a href="https://github.com/mickeygousset">@mickeygousset</a>
 <a href="https://github.com/writingpanda">@writingpanda</a>
