@@ -13,6 +13,9 @@ Why might you want to use the advanced setup? Here are some reasons:
 - Manage code scanning settings "as code"
 - Utilize 3rd party code scanning tooling
 
+> [!NOTE]
+> You can configure one private registry per organization for [Code scanning default setup](https://docs.github.com/en/code-security/securing-your-organization/enabling-security-features-in-your-organization/giving-org-access-private-registries#code-scanning-default-setup-access-to-private-registries)
+
 ### Assignment
 
 Your assignment here is to switch to the **[advanced setup](https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/configuring-advanced-setup-for-code-scanning)**. You can start under the **Settings** --> **Code Security** page.

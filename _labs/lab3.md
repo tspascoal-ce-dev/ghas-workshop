@@ -39,14 +39,16 @@ models.sequelize.query(`SELECT * FROM Users WHERE email = '${req.body.email || '
 13. After the pull request is created, the code scanning job will have been initiated. You can see the status of the job in the pull request checks. It will take a few minutes to run.
 
 <details>
+
   ![image](images/lab-3-1-3.png)
 </details>
 
-10. CodeQL should find the vulnerability, so the check will fail. Also, we should see Copilot create us an autofix on the PR that we can review.
+10. CodeQL should find the vulnerability, so the check will fail. Also, we should see Copilot create us an autofix on the PR as a code suggestion change that we can review (and commit)
 11. It might take Copilot a few moments to create the autofix.
 12. Review the autofix - we can prevent a vulnerability from entering the repository now with a click of a button! 🎉 ⚠️⚠️ **But don't commit the suggestion yet.** ⚠️⚠️
 
 <details>
+
   ![image](images/lab-3-1-4.png)
 </details>
 
@@ -61,6 +63,7 @@ Without a ruleset (GitHub's new version of branch protections), even though Code
 2. On the left hand list of options, click on **Rules --> Rulesets**.
 
 <details>
+
   ![image](images/lab-3-2-1.png)
 </details>
 
@@ -74,13 +77,15 @@ Without a ruleset (GitHub's new version of branch protections), even though Code
 5. Scroll down and click the **Create** button.
 
 <details>
+
   ![image](images/lab-3-2-2.png)
 </details>
 
 7. With the ruleset created, both the JavaScript scan has to finish and no vulnerabilities found with CodeQL in order to merge the code.
-8. Navigate back to our open PR. The **Merge pull request** button should now be grayed out, preventing us from merging vulnerable code.
+8. Navigate back to our open PR. The **Merge pull request** button should now be grayed out (there also a big red icon and the text **Merging is blocked** with the list of blocking reasons underneath), preventing us from merging vulnerable code.
 
 <details>
+
   ![image](images/lab-3-2-3.png)
 </details>
 

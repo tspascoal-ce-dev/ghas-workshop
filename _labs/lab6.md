@@ -16,12 +16,12 @@ The Security Overview can be used by anyone inside of an organization; it shows 
     - You can also navigate to your orgs by clicking on your profile picture and "**Your organizations**"
 2. Click on the **Security** tab.
 3. Review (and click on!) the different views on the left-hand side:
-    - Overview: visualize trends in Detection, Remediation, and Prevention of security alerts ([docs](https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/viewing-security-insights#about-security-insights))
-    - Risk: explore the risk from security alerts of all types or focus on a single alert type and identify your risk from specific vulnerable dependencies, code weaknesses, or leaked secrets ([docs](https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/assessing-code-security-risk))
-    - Coverage: assess the adoption of code security features across repositories in the organization ([docs](https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/assessing-adoption-code-security))
-    - Enablement trends: see how quickly different teams are adopting security features
-    - CodeQL pull request alerts: assess the impact of running CodeQL on pull requests and how development teams are resolving code scanning alerts ([docs](https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/viewing-metrics-for-pull-request-alerts))
-    - Secret scanning: find out which types of secret are blocked by push protection and which teams are bypassing push protection ([docs](https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/viewing-metrics-for-secret-scanning-push-protection))
+    - **Overview**: visualize trends in Detection, Remediation, and Prevention of security alerts ([docs](https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/viewing-security-insights#about-security-insights))
+    - **Risk**: explore the risk from security alerts of all types or focus on a single alert type and identify your risk from specific vulnerable dependencies, code weaknesses, or leaked secrets ([docs](https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/assessing-code-security-risk))
+    - **Coverage**: assess the adoption of code security features across repositories in the organization ([docs](https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/assessing-adoption-code-security))
+    - **Enablement trends**: see how quickly different teams are adopting security features
+    - **CodeQL pull request alerts**: assess the impact of running CodeQL on pull requests and how development teams are resolving code scanning alerts ([docs](https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/viewing-metrics-for-pull-request-alerts))
+    - **Secret scanning**: find out which types of secret are blocked by push protection and which teams are bypassing push protection ([docs](https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/viewing-metrics-for-secret-scanning-push-protection))
 
 > [!TIP]
 > You can export a CSV of nearly from most of these views using the **Export CSV** button in the upper right.
@@ -34,8 +34,9 @@ The Security Overview can be used by anyone inside of an organization; it shows 
     - This can be really useful for a manager, architect, or developer to see which repositories assigned to the teams have security features enabled and how many alerts they are generating.
 8. At the bottom of the options on the left, you will see **Security Campaigns**.
     - Security campaigns are a new feature designed to help administrators and security managers create targeted campaigns and track remediation progress effectively.
-9. ⚠️ Please don't create a new security campaign as to not introduce noise to your fellow attendees ⚠️, but click on the existing campaign here (**SQL injection (CWE-89)**) to check it out!
-    - How are we doing on our goal?
+9. ⚠️ Please don't create a new security campaign as to not introduce noise to your fellow attendees ⚠️
+
+TODO: add a note on assessements
 
 ## Summary
 

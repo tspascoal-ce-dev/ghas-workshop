@@ -8,13 +8,18 @@ Now that we have all of the security feature enabled, let's review the security 
 2. Click **Dependabot** under the **Vulnerability alerts** heading.
 
 <details>
+
   ![image](images/lab-2-1-1.png)
+  TODO: replace
+  ![alt text](image.png)
 </details>
 
 3. You should see a number of Dependabot alerts with various severities. Click on one of the alerts to see more information about it.
 
 <details>
+
   ![image](images/lab-2-1-2.png)
+  TODO: replace
 </details>
 
 4. When reviewing a Dependabot alert, you can see the following information (see if you can locate this information in the alert you opened):
@@ -25,11 +30,14 @@ Now that we have all of the security feature enabled, let's review the security 
    - The affected versions of the package
    - The fixed version (if there is one - sometimes there isn't a non-vulnerable version to upgrade to)
    - The dependency path (what file contains the vulnerable dependency)
+   - Is it a runtime or development dependency?
+   - Is it a direct or transitive dependency
    - The alert description
    - The alert recommendation (to upgrade or use a different package)
    - The alert timeline (for example, it should show that Dependabot just recently opened the alert. Once you close an alert, it will show who and when closed it here too).
 
 <details>
+
   ![image](images/lab-2-1-3.png)
 </details>
 
@@ -53,6 +61,7 @@ Now that we have all of the security feature enabled, let's review the security 
     - Reviewing the **Critical** and **High** security alerts is another great place to start when prioritizing.
 
 <details>
+
   ![image](images/lab-2-1-4.png)
 </details>
 
@@ -60,21 +69,24 @@ Now that we have all of the security feature enabled, let's review the security 
 14. Update the search query to `is:open has:patch`. This will filter out all of the alerts that don't have a patch available and only show alerts where there is a non-vulnerable version to upgrade to.
 
 <details>
+
   ![image](images/lab-2-1-5.png)
 </details>
 
 
-15. Auto-triage your alerts allows you control over how Dependabot opens pull requests, ignores false positives and snoozes alerts. Navigate to  the **Settings** tab (the icon of the gear) in the repo, back to **Code Scanning**, then find **Dependabot rules** underneath **Dependabot**.
+15. Auto-triage your alerts allows you control over how Dependabot opens pull requests, ignores false positives and snoozes alerts. Navigate to  the **Settings** tab (the icon of the gear)  in the repo and then **Advanced Security** left sidecar, scroll to **Dependabot**, then find **Dependabot rules** underneath **Dependabot alerts**.
 
 16.  Add a rule to snooze any alerts that do not have a fix available.  Choose the "gear" icon and select the **New rule** button.  Name the rule `Snooze when no patch available`, add a target metadata for all npm packages: `ecosystem:npm` and ensure the **Dismiss Alerts - Until patch is available** is selected.  Next, select **Create rule**.
 
 <details>
+
   ![image](images/lab-2-1-6.png)
 </details>
 
 17. Navigating back to the **Security** tab /  **Dependabot** under the **Vulnerability alerts** heading. You will see **1 Closed** heading.  Select this to find your alert **Command Injection in marsdb** without any fix has now been **Dismissed** as **auto-dismissed**.  The audit log will note **Repository rule created and Snooze when no patch available was applied**
 
 <details>
+
   ![image](images/lab-2-1-7.png)
 </details>
 
@@ -84,6 +96,7 @@ Now that we have all of the security feature enabled, let's review the security 
 2. We should have a number of alerts. If you don't see any alerts yet, skip ahead to the next exercise and come back to this one. More than likely, the code scanning workflow hasn't finished yet (it takes between 2-5 minutes to run).
 
 <details>
+
   ![image](images/lab-2-2-1.png)
 </details>
 
@@ -92,6 +105,7 @@ Now that we have all of the security feature enabled, let's review the security 
 5. To use the autofilter filter, paste this into the search box: `is:open branch:main autofilter:true` (or type/select it by hand).
 
 <details>
+
   ![image](images/lab-2-2-2.png)
 </details>
 
@@ -107,6 +121,7 @@ Now that we have all of the security feature enabled, let's review the security 
    - The affected branch
 
 <details>
+
   ![image](images/lab-2-2-3.png)
 </details>
 
@@ -122,9 +137,10 @@ Now that we have all of the security feature enabled, let's review the security 
 12. If you're happy with the suggestion, click the **Commit to a new branch** button.
 13. Accept the defaults and click **Commit change**.
 14. This will create a **draft** pull request with the fix for the vulnerability. In a real world example, assuming your build and tests pass, you would move the PR out of a draft state, having someone on your team review it, and then merge the change.
-    - The nice thing with code scanning alerts (just like Dependabot alerts) is that once you merge the code that resolves an alert, the alert will be automatically closed. This is because the alert is no longer present in the code.
+    - The nice thing with code scanning alerts (just like Dependabot alerts) is that once you merge the code and is scanned again that resolves an alert, the alert will be automatically closed. This is because the alert is no longer present in the code.
 
 <details>
+
   ![image](images/lab-2-2-4.png)
 </details>
 
@@ -162,13 +178,15 @@ Now that we have all of the security feature enabled, let's review the security 
 7. We can click **1 Closed** to see the alert we just closed.
 
 <details>
+
   ![image](images/lab-2-3-2.png)
 </details>
 
-8. Click on the **Experimental** secret scanning alerts option. This will show all of the alerts that are not high confidence, such as generic passwords, keys, and things such as HTTP bearer authentication header tokens found in the code.
+8. Click on the **Generic** secret scanning alerts option. This will show all of the alerts that are not high confidence, such as generic passwords, keys, and things such as HTTP bearer authentication header tokens found in the code.
 9. Let's click into one of the **Password** alerts.
 
 <details>
+
   ![image](images/lab-2-3-3.png)
 </details>
 
