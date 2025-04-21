@@ -6,13 +6,16 @@ This lab covers parts of the following exam domains:
 
 - Domain 6: Describe GitHub Advanced Security best practices
 
+> [!NOTE] This lab only orgs if you are using an organization as the owner of the repository.
+
 ## Exercise 1: Navigating to Security Overview
 
 The Security Overview can be used by anyone inside of an organization; it shows repositories that **you** have access to. If you are an org owner or a security manager, you would see all alerts. If you are a regular org member, you would only see alerts for repositories by default that you have write access to.
 
 > [!NOTE]
 > Security alerts for a repository are visible to people with write, maintain, or admin access to the repository and, when the repository is owned by an organization, organization owners. You can give additional teams and people access to the alerts.
-1. Navigate to the organization. You can do so by **clicking on the org name** (`Ignite24-Labs`) in the repository breadcrumbs in the upper left hand corner.
+
+1. Navigate to the organization you created the repository for the lab. You can do so by **clicking on the org name** in the repository breadcrumbs in the upper left hand corner.
     - You can also navigate to your orgs by clicking on your profile picture and "**Your organizations**"
 2. Click on the **Security** tab.
 3. Review (and click on!) the different views on the left-hand side:
@@ -25,6 +28,7 @@ The Security Overview can be used by anyone inside of an organization; it shows 
 
 > [!TIP]
 > You can export a CSV of nearly from most of these views using the **Export CSV** button in the upper right.
+
 4. Under the **Overview** view, navigate the sub-views, specifically **Detection** and **Remediation**.
     - Note the trends - this is useful information to evaluate the security posture of your organization. Are we getting better over time?
     - Being secure requires "constant vigilance"
@@ -36,7 +40,7 @@ The Security Overview can be used by anyone inside of an organization; it shows 
     - Security campaigns are a new feature designed to help administrators and security managers create targeted campaigns and track remediation progress effectively.
 9. ⚠️ Please don't create a new security campaign as to not introduce noise to your fellow attendees ⚠️
 
-TODO: add a note on assessements
+> [!TIP] If your organization is not yet using GitHub Secrets Protection, you can run a [secret risk assessement](https://docs.github.com/en/code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/about-secret-risk-assessment) to understand your exposure to data leaks to get an overview of your organization's secret leak footprint.
 
 ## Summary
 
@@ -46,4 +50,5 @@ If you want to learn more about the security overview or about what a particular
 
 Congrats, you have finished all of the main labs! 🎉 If you have time or are up for a challenge, try out the extra credit labs!
 
-➡️ Head back to the [labs](README.md) page to try your hand at the extra credit labs.
+➡️ If you want, you can now head to the first [extra credit lab](lab7-ec.md).
+
