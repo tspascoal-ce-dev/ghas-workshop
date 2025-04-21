@@ -97,7 +97,7 @@ Without a ruleset (GitHub's new version of branch protections), even though Code
 
 ## Summary
 
-Excellent!  In this lab you learned how to use Codespaces and Copilot to understand your code base, and even find errors in your code. We saw how GitHub code scanning can find bugs in the pull request and suggest solutions for them. And we learned how to use repository rulesets to block a pull request from merging until the checks are resolved.
+Excellent!  In this lab we saw how GitHub code scanning can find bugs in the pull request and suggest solutions for them. And we learned how to use repository rulesets to block a pull request from merging until the checks are resolved.
 
 In the next lab, we are going to learn about Dependency Review, and how it can help us stop bad dependencies from making it to the default branch.
 
