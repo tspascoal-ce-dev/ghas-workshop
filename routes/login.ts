@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
+
 import models = require('../models/index')
 import { type Request, type Response, type NextFunction } from 'express'
 import { type User } from '../data/types'
