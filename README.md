@@ -1,5 +1,5 @@
 
-<h1 align="center">Securing your code with GitHub</h1>
+<h1 align="center">Securing your code with GitHub</h1>ss
 
 <h5 align="center"><a href="https://github.com/joshjohanning">@joshjohanning</a> <a href="https://github.com/mickeygousset">@mickeygousset</a>
 <a href="https://github.com/writingpanda">@writingpanda</a>
