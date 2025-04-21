@@ -93,6 +93,6 @@ Now, let's attempt to add a vulnerable dependency to the codebase and test out t
 
 Celebrate 🎉! We just prevented a security vulnerability from entering our codebase! Without dependency review, if a pull request from this branch was opened to main, nothing would prevent the vulnerability from being introduced.
 
-In the next lab, we are going to go hands-on with secret scanning, and see how we can use push protection to stop secrets from being pushed to GitHub.
+In the next lab, we are going to go hands-on with secret protection, and see how we can use push protection to stop secrets from being pushed to GitHub.
 
 ➡️ Head back to the [labs](README.md) page to continue on to the next lab.
