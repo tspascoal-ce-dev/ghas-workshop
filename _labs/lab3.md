@@ -101,4 +101,4 @@ Excellent!  In this lab you learned how to use Codespaces and Copilot to underst
 
 In the next lab, we are going to learn about Dependency Review, and how it can help us stop bad dependencies from making it to the default branch.
 
-➡️ Head back to the [labs](README.md) page to continue on to the next lab.
+➡️ Head to the next [lab](lab4.md).
