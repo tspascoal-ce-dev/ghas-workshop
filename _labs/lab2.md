@@ -9,8 +9,6 @@ Now that we have all of the security feature enabled, let's review the security 
 
 <details>
 
-  ![image](images/lab-2-1-1.png)
-  TODO: replace
   ![alt text](image.png)
 </details>
 
@@ -19,7 +17,6 @@ Now that we have all of the security feature enabled, let's review the security 
 <details>
 
   ![image](images/lab-2-1-2.png)
-  TODO: replace
 </details>
 
 4. When reviewing a Dependabot alert, you can see the following information (see if you can locate this information in the alert you opened):
@@ -50,7 +47,7 @@ Now that we have all of the security feature enabled, let's review the security 
 9. Click on the **Verification Bypass in jsonwebtoken** alert. This alert *does* have a non-vulnerable version to upgrade to.
 10. If Dependabot has finished running, you should see a **Review security update** button attempt. If you see it, click it.
     - If you don't see it, skip to the next step. You can return to this step later after Dependabot finishes its initial run.
-    - Review the PR that Dependabot created.
+    - Review the PR that Dependabot created by clicking on the **Review security update**.
     - In the **Files changed** tab, you should see it upgrading the **package.json** file.
     - Back on the **Conversation** tab, you can see that the compatibility score is pretty low - this is an indication that you would likely going to have to make code changes to accept this PR.
     - Dependabot security updates is a great feature because assuming your build and tests pass, you can merge the PR and automatically close the alert.
@@ -170,9 +167,9 @@ Now that we have all of the security feature enabled, let's review the security 
   ![image](images/lab-2-3-1.png)
 </details>
 
-3. You can click on **Verify secret**. It will say it's not currently valid on `github.com`, but that doesn't mean it doesn't come from another GitHub instance (such as GitHub Enterprise Server).
+3. You can click on **Verify secret**. It will say it's not currently valid on **github.com**, but that doesn't mean it doesn't come from another GitHub instance (such as GitHub Enterprise Server). (clicking may not be there, since we enabled automatic visibility checked it may have been checked already, or it may even say the secret has been Publicly leaked).
 4. Go back to list of secret scanning alerts. Click on the **Google API key** alert.
-5. Click on **Verify secret** again. This time, it should say **secret inactive**. This is a good candidate to **Close as** --> **Revoked** (click the **Close as** button in the upper right to do so). Do this.
+5. Click on **Verify secret** again. This time, it should say **secret inactive** (or **Publicly leaked inactive secret**). This is a good candidate to **Close as** --> **Revoked** (click the **Close as** button in the upper right to do so). Do this.
     - Unlike Dependabot alerts and Code Scanning alerts, secret scanning alerts are not automatically closed when the secret is removed from the code - whether by a new commit or by re-writing history. This is because the secret was exposed and you don't know who may have seen it. So, you have to manually close the alert once you revoke the token.
 6. Navigate back to the **Default** secret alerts list.
 7. We can click **1 Closed** to see the alert we just closed.
@@ -196,4 +193,4 @@ Now that we have all of the security feature enabled, let's review the security 
 
 Well done! You've learned how to review and triage alerts from Dependabot, code scanning, and secret scanning. And you even saw how you can use Copilot to automatically fix a code scanning alert. In the next lab, we are going to to get hands-on with code scanning, repository rulesets, and Copilot, to see how we can both prevent and fix vulnerabilities in our code base.
 
-➡️ Head back to the [labs](README.md) page to continue on to the next lab.
+➡️ Head to the next [lab](lab3.md).
