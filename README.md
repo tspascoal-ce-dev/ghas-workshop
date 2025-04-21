@@ -1,6 +1,6 @@
 
 <h1 align="center">Securing your code with GitHub</h1>
-
+w
 <h5 align="center"><a href="https://github.com/joshjohanning">@joshjohanning</a> <a href="https://github.com/mickeygousset">@mickeygousset</a>
 <a href="https://github.com/writingpanda">@writingpanda</a>
 <a href="https://github.com/felickz">@felickz</a></h3>
