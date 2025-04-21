@@ -44,7 +44,7 @@ First, let's add the dependency review action workflow.
 11. Merge the PR once the code scanning completes.
 12. Navigate to **Settings** of the repo.
 13. Navigate to **Rules --> Rulesets**.
-14. Click on the name of the ruleset you created in lab 3 to modify it.
+14. Click on the name of the ruleset you created in **lab 3** to modify it.
 15. Enable the check box for **Require status checks to pass** (scroll down or use search)
 16. Click on **Add checks**.
 17. Search for `dependency-review` and add it (it should show up under **suggestions**).
@@ -95,4 +95,4 @@ Celebrate 🎉! We just prevented a security vulnerability from entering our cod
 
 In the next lab, we are going to go hands-on with secret protection, and see how we can use push protection to stop secrets from being pushed to GitHub.
 
-➡️ Head back to the [labs](README.md) page to continue on to the next lab.
+➡️ Head to the next [lab](lab4.md).
