@@ -16,7 +16,7 @@ In this exercise, you will create a repository with code from which you can work
 
 1. [] Navigate to +++https://github.com/Ignite-GHAS-Workshop/ghas-workshop-repo+++ in your browser. TODO: replace with correct repo
 2. [] Click the green **Use this template** button in the upper right corner of the page.
-3. [] Create a new repository in our organization by choosing **TODO: name of the org** in the dropdown.
+3. [] Create a new repository in our organization by choosing **TODO: name of the org** in the owner dropdown.
 4. [] Give the repository a unique name **lab303-<my-unique-repo-name-here>**.  Click the green link below for inspiration on a unique repo name 😉.
 5. [] Make sure you switch it to visibility **Private** so your work does not conflict with other attendees!  Now click **Create repository**.
 6. [] The page will refresh after a few seconds where you can now see the code we will be working with.  
