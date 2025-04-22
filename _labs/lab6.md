@@ -40,7 +40,7 @@ The Security Overview can be used by anyone inside of an organization; it shows 
     - Security campaigns are a new feature designed to help administrators and security managers create targeted campaigns and track remediation progress effectively.
 9. ⚠️ Please don't create a new security campaign as to not introduce noise to your fellow attendees ⚠️
 
-> [!TIP] If your organization is not yet using GitHub Secrets Protection, you can run a [secret risk assessement](https://docs.github.com/en/code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/about-secret-risk-assessment) to understand your exposure to data leaks to get an overview of your organization's secret leak footprint.
+> [!TIP] If your If your company is using GitHub Enterprise or GitHub Teams plan and is not yet using GitHub Secrets Protection, you can run a [secret risk assessement](https://docs.github.com/en/code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/about-secret-risk-assessment) at no cost to understand exposure to data leaks and to get an overview of your organization's secret leak footprint. 
 
 ## Summary
 
