@@ -6,7 +6,7 @@ This lab covers parts of the following exam domains:
 
 - Domain 6: Describe GitHub Advanced Security best practices
 
-> [!NOTE] This lab only orgs if you are using an organization as the owner of the repository.
+> [!NOTE] This lab is only available if you are using an organization as the owner of the repository.
 
 ## Exercise 1: Navigating to Security Overview
 
