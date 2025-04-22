@@ -16,9 +16,9 @@ In this exercise, you will create a repository with code from which you can work
 
 1. Navigate to +++https://github.com/Ignite-GHAS-Workshop/ghas-workshop-repo+++ in your browser. TODO: replace with correct repo
 2. Click the green **Use this template** button in the upper right corner of the page.
-3. Create a new repository in our organization by choosing Owner in the dropdown (either personal or organization).
-4. Give the repository a unique name **my-ghas-workshop-repo-<my-unique-repo-name-here>**.  Click the green link below for inspiration on a unique repo name 😉.
-5. Make sure you switch it to visibility to **Public** if using a personal account if using an organization check the notes in [requirements](./requirements.md) for visibility.  Now click **Create repository**.
+3. Create a new repository in our organization by choosing **TODO: name of the org** in the dropdown.
+4. Give the repository a unique name **lab303-<my-unique-repo-name-here>**.  Click the green link below for inspiration on a unique repo name 😉.
+5. Make sure you switch it to visibility **Private** so your work does not conflict with other attendees!  Now click **Create repository**.
 6. The page will refresh after a few seconds where you can now see the code we will be working with.  
 
 ## Enabling the security settings
@@ -34,7 +34,6 @@ Dependabot and Dependency Graph should already be turned on for your repository.
 1. We first want to turn on the security settings for the repository. Navigate to the **Settings** tab (the icon of the gear) in the repo.
 2. Click on the  **Advanced Security** section.
 3. Ensure the Dependency Graph is enabled (scroll down to **Code Security** group).  This will be indicated by a red **Disable** button.  If there is a black **Enable** button, click it to enable the **Dependency Graph** setting. To enable Dependabot, we first have to enable the Dependency Graph. This allows Dependabot to ingest your package manifest files.
-  - Note: If using a public repository you cannot disable dependency graph.
 4. Ensure the Dependabot alerts are enabled.  This will be indicated by a red **Disable** button.  If there is a black **Enable** button, click it to enable the **Dependabot alerts** setting. This feature will create alerts for vulnerable dependencies found in your repository.
 5. Click the **Enable** button next to the **Dependabot security updates** setting.
     - This will automatically create pull requests to update your vulnerable dependencies (if there is a non-vulnerable version to upgrade to).
@@ -54,7 +53,7 @@ Once you are done turning on Dependabot features, the next thing we will need to
 3. Underneath the **Code Security | Tools** heading, click the **Set up** button in the **CodeQL analysis** row.
 
 > [!NOTE]  
-> If you do not see the **Code security** heading you have likely not created your repo with Public visibility if using a personal account or in a Organization which has GitHub Advanced Security licenses. Go back to the beginning of this lab and ensure you choose the right owner or repository visibility.
+> If you do not see the **Code scanning** heading on the **Code security** page after enabling **Code Security** - you have likely not created your repo in the proper Organization. Go back to the beginning of this lab and ensure you choose **TODO: ORG NAME** value from the dropdown as the new repository **Owner** when you choose **Use this template**.
 
 4. There are two options: **Default** and **Advanced**. Select the **Default** option and review the settings.
     - For this lab, we will use the **Default** setup, which creates a managed Actions workflow (i.e. you will not see a codeql.yaml file committed to the repo). You can use the Advanced option to manage your code scanning workflow as a GitHub Actions workflow YAML file committed to the repo. The **Default** option is a great option to get started quickly to enable code scanning in a repository without needing to commit any additional code.

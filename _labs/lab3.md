@@ -8,7 +8,7 @@ With Code Scanning enabled, we want to block vulnerable code from entering the c
 2. Click the Pencil icon on the top right of the file view to edit the file.
 3. Find lines 36-46 and delete them
 
-```diff
+```diff-nopaste
 - models.sequelize.query(
 -       'SELECT * FROM Users WHERE email = :email AND password = :password AND deletedAt IS NULL',
 -       {

@@ -6,8 +6,6 @@ This lab covers parts of the following exam domains:
 
 - Domain 6: Describe GitHub Advanced Security best practices
 
-> [!NOTE] This lab only orgs if you are using an organization as the owner of the repository.
-
 ## Exercise 1: Navigating to Security Overview
 
 The Security Overview can be used by anyone inside of an organization; it shows repositories that **you** have access to. If you are an org owner or a security manager, you would see all alerts. If you are a regular org member, you would only see alerts for repositories by default that you have write access to.
@@ -38,7 +36,8 @@ The Security Overview can be used by anyone inside of an organization; it shows 
     - This can be really useful for a manager, architect, or developer to see which repositories assigned to the teams have security features enabled and how many alerts they are generating.
 8. At the bottom of the options on the left, you will see **Security Campaigns**.
     - Security campaigns are a new feature designed to help administrators and security managers create targeted campaigns and track remediation progress effectively.
-9. ⚠️ Please don't create a new security campaign as to not introduce noise to your fellow attendees ⚠️
+9. ⚠️ Please don't create a new security campaign as to not introduce noise to your fellow attendees ⚠️, but click on the existing campaign here (**SQL injection (CWE-89)**) to check it out!
+    - How are we doing on our goal?
 
 > [!TIP] If your If your company is using GitHub Enterprise or GitHub Teams plan and is not yet using GitHub Secrets Protection, you can run a [secret risk assessement](https://docs.github.com/en/code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/about-secret-risk-assessment) at no cost to understand exposure to data leaks and to get an overview of your organization's secret leak footprint. 
 
