@@ -4,7 +4,7 @@ In order to execute this you need:
 - A modern web browser
 - A GitHub account
 - You will create a copy of the repository in your GitHub account, you can use a personal account or an organization account.
-  - If you using a personal account, make sure the repository is public and some of the exercises are not applicable.
+  - If you using a personal account, make sure the repository is public and that some of the exercises are not applicable. There can be also some features that work slightly different or not be available in public repositories.
   - If you use an enterprise account, make sure you have the right permissions to create a repository in the organization account, if you use a internal/private repository the organization will need a GitHub Advanced Security license.
 
 # Requirements
