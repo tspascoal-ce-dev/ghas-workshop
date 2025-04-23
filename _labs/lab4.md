@@ -25,7 +25,7 @@ First, let's add the dependency review action workflow.
   ![image](images/lab-4-1-2.png)
 </details>
 
-8. On the next screen, If you have a Copilot lience use the Copilot icon  in the formatting bar to generate a pull request description.
+8. On the next screen, If you have a Copilot license use the Copilot icon  in the formatting bar to generate a pull request description.
 
 <details>
 
