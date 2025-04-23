@@ -106,7 +106,7 @@ Now that we have all of the security feature enabled, let's review the security 
   ![image](images/lab-2-2-2.png)
 </details>
 
-6. Scroll down and let's click on one of the SQL injection alerts. These can be found by searching for the title **Database query built from user-controlled sources**.
+6. Scroll down and let's click on one of the SQL injection alerts. These can be found by searching for the title `"Database query built from user-controlled sources"`.
 7. After clicking into one of the alerts, we should notice a few things:
    - The severity of the alert
    - The CWE(s) of the alert with a hyperlink
