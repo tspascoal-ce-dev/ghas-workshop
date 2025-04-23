@@ -57,7 +57,7 @@ Once you are done turning on Dependabot features, the next thing we will need to
 > If you do not see the **Code security** heading you have likely not created your repo with Public visibility if using a personal account or in a Organization which has GitHub Advanced Security licenses. Go back to the beginning of this lab and ensure you choose the right owner or repository visibility.
 
 4. There are two options: **Default** and **Advanced**. Select the **Default** option and review the settings.
-    - For this lab, we will use the **Default** setup, which creates a managed Actions workflow (i.e. you will not see a codeql.yaml file committed to the repo). You can use the Advanced option to manage your code scanning workflow as a GitHub Actions workflow YAML file committed to the repo. The **Default** option is a great option to get started quickly to enable code scanning in a repository without needing to commit any additional code.
+    - For this lab, we will use the **Default** setup, which creates a managed Actions workflow (i.e. you will not see a codeql.yaml file committed to the repo). The Advanced option can be used to manage your code scanning workflow as a GitHub Actions workflow YAML file committed to the repo. The **Default** option is a great option to get started quickly to enable code scanning in a repository without needing to commit any additional code.
     - By default, it will scan the JavaScript code, use the default CodeQL queries (for highest precision), and scan the default branch on push, pull request, and on a weekly schedule.
 
 <details>
