@@ -16,7 +16,7 @@ First, let's add the dependency review action workflow.
   ![image](images/lab-4-1-1.png)
 </details>
 
-5. [] Review the action **actions/dependency-review-action** and its inputs after **with:**. This action can also block specific open source license types.
+5. [] Review the action **actions/dependency-review-action** and its inputs after **with:**. The options are going to be commented out so default values will be used. For example this action can also block specific open source license types or you can configure the severity of the vulnerabilities to be flagged.
 6. [] In the upper right, click on **Commit changes...**
 7. [] Since we have a ruleset, we have to create a branch and merge this to main via pull request. Create a branch and commit (**Propose changes**) the changes.
 
