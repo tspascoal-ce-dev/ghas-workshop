@@ -49,7 +49,7 @@ Once you are done turning on Dependabot features, the next thing we will need to
 
 ### Exercise 2: Enable Code Security
 
-1. Next, let's enable **Code Scanning with CodeQL**. These settings are also under the **Code security** settings page.
+1. Next, let's enable **Code Scanning with CodeQL**. These settings are also under the **Advanced Security** settings page.
 2. Ensure **Code Security** is enabled.  This will be indicated by a red **Disable** button.  If there is a black **Enable** button, click it to enable **Code Security**.
 3. Underneath the **Code Security | Tools** heading, click the **Set up** button in the **CodeQL analysis** row.
 
